@@ -1,0 +1,163 @@
+\documentclass[20pt]{article}
+\usepackage[T1] {fontenc}			%Fyrir íslenska sértafi
+\usepackage[utf8] {inputenc}		%Fyrir Mac (íslenska sérstafi)
+\usepackage[icelandic] {babel}		%Fyrir íslenska sérstafi
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\usepackage{wrapfig}
+\usepackage{array}
+\usepackage{amsmath}
+\newcommand\addtag{\refstepcounter{equation}\tag{\theequation}}
+\usepackage[utf8]{inputenc}
+\RequirePackage[14tabu, orthodox]{nag}			% Nöldrar meira við villumeldingar
+\usepackage[T1]{fontenc}						% Keyrir 8-bit font encoding sem kallast T1
+\usepackage{microtype} 							% Ýmsar lagfæringar á stafabili og orðabili í build'i.
+\usepackage{setspace} 							% Get notað \begin{doublespace} svæðið til að hafa tvöfalt línubil.
+\usepackage[version=3]{mhchem} 					% Efnafræðipakkinn.
+\usepackage[separate-uncertainty=true]{siunitx} % Læt siunitx pakkann skrifa óvissuna sem X \pm óvissa í stað sviga.
+\usepackage{graphicx} 							% Required for the inclusion of images.
+\usepackage{natbib} 							% Required to change bibliography style to APA.
+\usepackage{amsmath} 							% Required for some math elements.
+\usepackage[margin=2cm]{geometry} 				% Spássíur, breyta gildinu í hornklofanum.
+\usepackage{epstopdf} 							% Til þess að geta buildað eps myndir í pdf'ið.
+\usepackage{float} 								% Get meðhöndlað floats' eins og myndir með hástöfum [H].
+\usepackage{caption} 							% Nauðsynlegur til þess að geta breytt mynda- og töflutextum.
+\usepackage{subcaption}							% Nauðsynlegur til þess að gera myndatexta við fjölmyndir (e. subfigures)
+\usepackage{hyperref} 							% Nauðsynlegur til þess að breyta texta í klikkanlega hyperlinka.
+\usepackage{marvosym}
+\renewcommand{\arraystretch}{1,2}
+\usepackage{amssymb}
+\linespread{1.2}
+\usepackage{xfrac}
+\begin{document}
+
+%——————————Endir formúla————————————————————————————
+
+
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE North South University
+
+Department of Electrical and Computer Engineering
+ \par}
+	\vspace{.5cm}
+	\includegraphics[width = 0.35\textwidth]			 
+    {North-South-University-logo-03}\par\vspace{.15cm}
+	{\huge\bfseries Project Proposal
+
+Pharmacy Database Management System
+
+
+
+Database System Lab
+
+CSE-311L
+
+Section: 9
+
+Semester: Spring 2022
+
+ \par}
+    {\huge\bfseries Student Name and ID
+    
+    Mushfiqur Rahman Dipto - 1621138042
+    
+    Course Faculty - Nadeem Ahmed
+    
+    Lab Instructor - Nazmul Alam Dipto
+    Submission Date : 22th February, 2022
+ \par}
+	\vspace{2cm}
+    %{\Large\itshape Hópur 9}\\ %Hér má setja hópanúmer ef við á %merkið er notað til að commenta út línur í LaTex
+	{\Large\itshape   
+  
+	\vfill
+	\par
+	
+
+	\vfill
+
+
+	{}
+}\end{titlepage}
+
+\section{Introduction}
+
+We generally buy medicines from the pharmacy. When we go on a pharmacy first we give them the prescription or the required medicine list. Then they search the medicine. Make a parcel and tell us the bill. So, I think it’s completely a tough thing for both buyers and the seller. So, this is a database management system where people can save more time and easily can complete the buying and selling process through a smart system.
+Here, it is a pharmacy database management system. Where there will be two different admin panel one for the customers and one for the sellers. People can select medicines and stuffs by using their own customer panel and can make a cart. Where after calculation a bill will auto generate. In the seller admin panel they can easily delete and add medicines, they can add or delete the available and unavailable medicines. They also make different  records without using a record book or diary. This system will be very useful and easier for both buyers and sellers.
+    \\
+ 
+
+% dæmi um mynd sem fylgir inngangi til útskýringar
+
+
+\section{Objective}
+
+\usepackage{1.To digitalized medicine corners.
+
+2.To make easier the buying and selling process.
+
+3.To make product list buy the customers own choice.
+
+4.To get proper records of products and customers.
+
+5.Add or delete medicines.
+
+6.Organized the store according medicine requirements.
+
+7.To give both the customers and the sellers a different experience.} 
+ 
+
+
+\section{Target Customer}
+\usepackage{Almost each and every one buys medicines. So here every single person is a target customer. Anyone can access the customer panel according to their own requirements. 
+
+The people who works in the pharmacy it will be more helpful for them to track each records and they can make their store more organized and also can serve more customer together.}	
+
+
+
+
+
+  
+
+ 
+
+
+
+
+\section{Description}
+*Customer can make their own list.
+	
+
+*The buyers and the seller both can watch which medicines are available and which are not.
+	
+
+*Customers can know the price of the medicines.
+	
+
+*Auto generation of a payment slip.
+	
+
+*Buyers can add or delete medicine on the database.
+	
+
+*Buyers can make their store more organized and can found medicines easily.
+	
+
+*Both buyers and sellers can save time and can get an organized experience.
+	
+
+*Buyers can get medicines, products and customer records.
+
+
+\section{Tools}
+HTML
+MYSQL
+PHP
+
+\section{Challenge}
+It is a long process to make a total database system for a pharmacy because here a huge number of data need to collect. But once the process can be done this will be a great thing for both buyers and sellers in every medicine corners where people can buy medicine only to have this experience and this can be very helpful both for them.
+
+
+\end{document}
+
